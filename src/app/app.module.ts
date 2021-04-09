@@ -8,6 +8,7 @@ import { EditComponent } from './edit/edit.component';
 import {FormsModule} from '@angular/forms';
 import { CreateComponent } from './create/create.component';
 import { DeleteComponent } from './delete/delete.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DeleteComponent } from './delete/delete.component';
     ListComponent,
     EditComponent,
     CreateComponent,
-    DeleteComponent
+    DeleteComponent,
+    HeaderComponent
   ],
     imports: [
         BrowserModule,
