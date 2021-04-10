@@ -43,6 +43,6 @@ export class ProductService {
     this.products.push(product);
   }
   delete(id: number){
-    this.products.splice(id - 1);
+    this.products.splice(id - 1,1);
   }
 }

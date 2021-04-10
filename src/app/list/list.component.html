@@ -11,5 +11,6 @@
     <td>{{p.description}}</td>
     <td><a routerLink="edit/{{p.id}}">Edit</a></td>
     <td><a routerLink="delete/{{p.id}}">Delete</a></td>
+    <td><button type="button" (click)="delete(p.id)">Delete</button></td>
   </tr>
 </table>

@@ -19,5 +19,8 @@ export class ListComponent implements OnInit {
   getAll(){
     this.products = this.productService.getProducts();
   }
+  delete(id: number){
+    this.productService.delete(id);
+  }
 
 }
